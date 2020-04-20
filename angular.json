@@ -122,5 +122,10 @@
       }
     }
   },
-  "defaultProject": "DatingApp-SPA"
+  "defaultProject": "DatingApp-SPA",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
